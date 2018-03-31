@@ -1,9 +1,3 @@
-/*--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
---*/
 
 body {
     margin: 0;
@@ -20,6 +14,30 @@ body a,
     transition: 0.5s all;
     text-decoration: none;
 }
+.amg-skills {
+  max-width: 960px;
+}
+.amg-badge-collection {
+  background: #151515;
+}
+.amg-badge {
+  padding: 20px 5%;
+}
+.amg-badge h3 {
+  margin: 0;
+  line-height: 50px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+@media only screen and (max-width : 639px) {
+  .amg-badge {
+    width: 50%;
+    padding: 20px 10%;
+  }
+}
+
+
 
 h1,
 h2,
@@ -1883,7 +1901,7 @@ span.icon_g_plus {
 		-webkit-flex: 1;          /* Chrome */
 		-ms-flex: 1;              /* IE 10 */
 		flex: 1;                  /* NEW, Spec - Opera 12.1, Firefox 20+ */
-	
+
     }
 }
 
